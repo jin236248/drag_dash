@@ -20,4 +20,5 @@ setup(
     classifiers = [
         'Framework :: Dash',
     ],    
+    long_description="This package makes dash objects draggable. It is based on react-draggable (https://www.npmjs.com/package/react-draggable)."
 )

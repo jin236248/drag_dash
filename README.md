@@ -1,6 +1,6 @@
 # drag_dash
 
-drag_dash is a Dash component library.
+drag_dash is a Dash component library based on react-draggable.
 
 Get started with:
 1. Install Dash and its dependencies: https://dash.plotly.com/installation
