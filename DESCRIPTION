@@ -1,0 +1,13 @@
+Package: dragDash
+Title: drag dash objects
+Version: 0.0.1
+Description: drag dash objects
+Depends: R (>= 3.0.2)
+Imports: 
+Suggests: 
+License: MIT + file LICENSE
+URL: https://github.com/jin236248/drag-dash
+BugReports: https://github.com/jin236248/drag-dash/issues
+Encoding: UTF-8
+LazyData: true
+KeepSource: true
