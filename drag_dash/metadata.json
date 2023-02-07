@@ -1,10 +1,10 @@
 {
   "src/lib/components/DragDash.react.js": {
-    "description": "ExampleComponent is an example component.\r\nIt takes a property, `label`, and\r\ndisplays it.\r\nIt renders an input with the property `value`\r\nwhich is editable by the user.",
+    "description": "",
     "displayName": "DragDash",
     "methods": [
       {
-        "name": "handleOnDragStop",
+        "name": "onDragStop",
         "docblock": null,
         "modifiers": [],
         "params": [
@@ -26,105 +26,98 @@
           "name": "string"
         },
         "required": false,
-        "description": "The ID used to identify this component in Dash callbacks."
+        "description": ""
       },
       "setProps": {
         "type": {
           "name": "func"
         },
         "required": false,
-        "description": "Dash-assigned callback that should be called whenever any of the\r\nproperties change"
+        "description": ""
       },
       "onStop": {
         "type": {
           "name": "func"
         },
         "required": false,
-        "description": "..."
+        "description": ""
       },
       "axis": {
         "type": {
           "name": "string"
         },
         "required": false,
-        "description": "..."
+        "description": ""
       },
       "handle": {
         "type": {
           "name": "string"
         },
         "required": false,
-        "description": "..."
+        "description": ""
       },
       "defaultPosition": {
         "type": {
           "name": "object"
         },
         "required": false,
-        "description": "..."
+        "description": ""
       },
       "position": {
         "type": {
           "name": "object"
         },
         "required": false,
-        "description": "..."
+        "description": ""
       },
       "grid": {
         "type": {
           "name": "array"
         },
         "required": false,
-        "description": "..."
+        "description": ""
       },
       "lastX": {
         "type": {
           "name": "number"
         },
         "required": false,
-        "description": "..."
+        "description": ""
       },
       "lastY": {
         "type": {
           "name": "number"
         },
         "required": false,
-        "description": "..."
+        "description": ""
       },
       "deltaX": {
         "type": {
           "name": "number"
         },
         "required": false,
-        "description": "..."
+        "description": ""
       },
       "deltaY": {
         "type": {
           "name": "number"
         },
         "required": false,
-        "description": "..."
-      },
-      "ismoved": {
-        "type": {
-          "name": "bool"
-        },
-        "required": false,
-        "description": "..."
+        "description": ""
       },
       "children": {
         "type": {
           "name": "node"
         },
         "required": false,
-        "description": "..."
+        "description": ""
       },
       "disabled": {
         "type": {
           "name": "bool"
         },
         "required": false,
-        "description": "..."
+        "description": ""
       }
     }
   }

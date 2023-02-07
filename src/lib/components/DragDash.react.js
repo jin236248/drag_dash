@@ -6,27 +6,14 @@ export default class DragDash extends Component {
     constructor(props) {
         super(props);
         this.state = {};
-
-        this.handleOnDragStop = this.handleOnDragStop.bind(this);
+        this.onDragStop = this.onDragStop.bind(this);
     }
 
-    handleOnDragStop(event, data) {
-        console.log(event);
-        console.log(data);
+    onDragStop(event, data) {
         this.props.setProps({
             lastX: data.lastX,
             lastY: data.lastY,
         });
-        if (data.deltaX !==0 || data.deltaY !==0) {
-            this.props.setProps({
-                ismoved: true,
-            });
-        }
-        else {
-            this.props.setProps({
-                ismoved: false,
-            });
-        }
     }
 
     render() {
@@ -34,7 +21,7 @@ export default class DragDash extends Component {
 
         return (
             <div id={this.props.id}>
-                <Draggable onStop={this.handleOnDragStop}
+                <Draggable onStop={this.onDragStop}
                            axis={this.props.axis}
                            handle={this.props.handle}
                            defaultPosition={this.props.defaultPosition}
@@ -66,7 +53,6 @@ DragDash.propTypes = {
     lastY: PropTypes.number,
     deltaX: PropTypes.number,
     deltaY: PropTypes.number,
-    ismoved: PropTypes.bool,
     children: PropTypes.node,
     disabled: PropTypes.bool
 };
