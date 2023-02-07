@@ -19,12 +19,12 @@ export default class DragDash extends Component {
         });
         if (data.deltaX !==0 || data.deltaY !==0) {
             this.props.setProps({
-            ismoved: true,
+                ismoved: true,
             });
         }
         else {
             this.props.setProps({
-            ismoved: false,
+                ismoved: false,
             });
         }
     }
