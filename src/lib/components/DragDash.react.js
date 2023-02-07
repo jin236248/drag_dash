@@ -2,13 +2,6 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import Draggable from 'react-draggable';
 
-/**
- * ExampleComponent is an example component.
- * It takes a property, `label`, and
- * displays it.
- * It renders an input with the property `value`
- * which is editable by the user.
- */
 export default class DragDash extends Component {
     constructor(props) {
         super(props);
@@ -61,79 +54,19 @@ export default class DragDash extends Component {
 DragDash.defaultProps = {};
 
 DragDash.propTypes = {
-    /**
-     * The ID used to identify this component in Dash callbacks.
-     */
     id: PropTypes.string,
-
-    /**
-     * Dash-assigned callback that should be called whenever any of the
-     * properties change
-     */
     setProps: PropTypes.func,
-
-    /**
-     * ...
-     */
     onStop: PropTypes.func,
-
-    /**
-     * ...
-     */
     axis: PropTypes.string,
-
-    /**
-     * ...
-     */
     handle: PropTypes.string,
-
-    /**
-     * ...
-     */
     defaultPosition: PropTypes.object,
-
-    /**
-     * ...
-     */
     position: PropTypes.object,
-
-    /**
-     * ...
-     */
     grid: PropTypes.array,
-
-    /**
-     * ...
-     */
     lastX: PropTypes.number,
-
-    /**
-     * ...
-     */
     lastY: PropTypes.number,
-
-    /**
-     * ...
-     */
     deltaX: PropTypes.number,
-
-    /**
-     * ...
-     */
     deltaY: PropTypes.number,
-
-    /**
-     * ...
-     */
     ismoved: PropTypes.bool,
-
-    /**
-     * ...
-     */
     children: PropTypes.node,
-
-    /**
-     * ...
-     */
     disabled: PropTypes.bool
 };
